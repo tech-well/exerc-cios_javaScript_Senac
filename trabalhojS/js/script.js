@@ -120,5 +120,20 @@ if (t1 === t2 && t2 === t3) {
 
   console.log(pularLinha)
 
+  function Media(p1,p2,p3){
+     let resultado = null
+     resultado = (p1 + p2 + p3) / 3
+
+     if(resultado >= 6){
+        console.log(`sua média é ${resultado} e você está aprovado`)
+     }else{
+        console.log(`sua média é ${resultado} e você está reprovado`)
+     }
+  }
+
+  Media(5,6,8)
+
+  console.log(pularLinha)
+
  
   
