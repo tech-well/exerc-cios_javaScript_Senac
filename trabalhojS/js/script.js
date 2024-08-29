@@ -135,5 +135,24 @@ if (t1 === t2 && t2 === t3) {
 
   console.log(pularLinha)
 
+  let hobbies = ['tocar viola','ouvir moda de viola','assistir séries','passear']
+
+  console.log(hobbies)
+  
+  console.log(pularLinha)
+
+  const frutas = ['pêra', 'maçã','pitomba','jaca','siriguela']
+
+  console.log(frutas[1])
+
+  frutas.push('graviola', 'abacaxi')
+
+  console.log(frutas)
+
+  frutas.shift()
+
+  console.log(frutas)
+
+
  
   
