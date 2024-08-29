@@ -106,6 +106,19 @@ console.log(pularLinha)
  ParImpar(45)
 
  console.log(pularLinha)
- 
+
+ let t1 = 5;
+let t2 = 5;
+let t3 = 5;
+
+if (t1 === t2 && t2 === t3) {
+  console.log("O triângulo é equilátero.");
+} else if (t1 === t2 || t1 === t3 || t2 === t3) {
+  console.log("O triângulo é isósceles.");
+} else {
+  console.log("O triângulo é escaleno.")}
+
+  console.log(pularLinha)
+
  
   
